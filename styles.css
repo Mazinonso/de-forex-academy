@@ -1,0 +1,373 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: inter-Bold;
+  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: inter-light;
+  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url(/DMSans-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.root {
+  width: 100%;
+  padding: 10px;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+#logo {
+  width: 21.54px;
+  height: 24.3px;
+}
+
+#firm-name {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.3px;
+  color: #8c30f5;
+}
+
+#top-nav div {
+  height: 5px;
+  width: 35px;
+  background-color: black;
+  margin: 6px;
+}
+
+.pink-layout {
+  padding-inline: 16px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  width: 100%;
+  background: #f8f1ff;
+  border-radius: 30px;
+}
+.invincible-container {
+  width: 100%;
+}
+#de-forex-academy {
+  height: 38px;
+  width: 70%;
+  margin-inline: auto;
+  border-radius: 30px;
+  /* padding: 8px 40px 8px 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(140, 48, 245, 0.1);
+  color: #8c30f5;
+  font-family: inter-light;
+}
+
+#de-forex-academy p {
+  padding-inline: 10px;
+  padding-top: 2px;
+}
+#h1 {
+  font-family: Inter-Bold;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  color: black;
+  line-height: 48.41px;
+  letter-spacing: -2px;
+}
+#h6 {
+  font-family: Roboto-Black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 8px;
+  color: black;
+}
+
+#learn-more button {
+  height: 54px;
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+  background-color: rgba(140, 48, 245, 1);
+  font-family: inter-light;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 32px;
+}
+#Contact-us p {
+  border-bottom: 1px solid black;
+}
+
+#image img {
+  max-width: 100%;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  transform: translateY(-80px);
+}
+
+.slider div {
+  display: flex;
+  width: max-content;
+  left: 351px;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  flex-shrink: 0;
+  align-items: center;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+  scroll-snap-type: mandatory;
+}
+.slider p {
+  font-family: DMSans-Bold;
+  color: black;
+  padding-left: 10px;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.about {
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 31px;
+  padding-bottom: 210px;
+}
+
+#text {
+  padding-top: 72px;
+}
+
+#text h1 {
+  font-family: Inter-Bold;
+}
+
+#text p {
+  font-family: DMSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+  color: black;
+}
+
+.our-services {
+  background-color: rgba(140, 48, 245, 1);
+  /* padding-bottom: 64px; */
+}
+
+#service-container {
+  align-items: center;
+  padding-top: 64px;
+  padding-inline: 32px;
+}
+.service-img {
+  width: 100%;
+}
+
+.service-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+#roboto {
+  font-family: roboto-light;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: white;
+  padding-top: 24px;
+}
+
+#inter {
+  font-family: inter-Bold;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+#small-inter {
+  font-family: inter-light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.mission {
+  margin-top: 210px;
+  padding-inline: 29px;
+}
+
+.mission h1 {
+  font-family: DMSans-Bold;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1px;
+}
+
+.mission p {
+  font-family: DMSans-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: black;
+}
+
+.mission h1,
+p {
+  padding-top: 16px;
+}
+
+.three {
+  margin-top: 64px;
+}
+
+.three div {
+  margin-block: 24px;
+}
+
+.three h3 {
+  font-family: DMSans-Bold;
+}
+
+.three p {
+  font-family: DMSans-Regular;
+}
+
+#integrity {
+  background-color: rgba(255, 224, 224, 1);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+#excellence {
+  background-color: rgba(224, 240, 255, 1);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+#love {
+  background-color: rgba(232, 255, 224, 1);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.testimonial {
+  background-color: rgba(248, 241, 255, 1);
+  margin-top: 282px;
+}
+
+#quote img {
+  height: 120px;
+  padding-left: 15px;
+  opacity: 0.3;
+  padding-top: 32px;
+}
+
+.testimonial-home {
+  transform: translateY(-40px);
+}
+#testimonial-text h1 {
+  font-family: inter-Bold;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: black;
+}
+
+#testimonial-text p {
+  font-family: inter-light;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.trinity {
+  height: 376px;
+  top: 290px;
+  border-radius: 8px;
+  margin-top: 66px;
+  padding: 32px;
+}
+
+#img-1 {
+  margin-bottom: 10px;
+}
+#img-2 {
+  height: 10px;
+}
+#first-p {
+  font-family: inter-light;
+  color: black;
+  transform: translateY(-10px);
+}
