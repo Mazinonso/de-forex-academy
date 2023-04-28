@@ -167,6 +167,14 @@ body {
   padding-inline: 31px;
   padding-bottom: 210px;
 }
+#group {
+  display: flex;
+}
+
+#group img {
+  max-width: 100%;
+  height: auto;
+}
 
 #text {
   padding-top: 72px;
