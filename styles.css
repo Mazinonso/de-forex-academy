@@ -323,10 +323,10 @@ p {
   padding-right: 31px;
 }
 
-#testimonial-text {
-  /* margin-left: 34px;
-  margin-right: 31px; */
-}
+/* #testimonial-text {
+  margin-left: 34px;
+  margin-right: 31px;
+} */
 #testimonial-text h1 {
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -383,4 +383,57 @@ p {
   border-radius: 8px;
   padding: 32px;
   background-color: rgba(255, 255, 255, 1);
+}
+
+.join-us div {
+  width: 100%;
+  height: auto;
+  padding-left: 34px;
+  padding-right: 31px;
+}
+
+.join-us h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -1px;
+  padding-top: 210px;
+  padding-bottom: 43px;
+}
+.join-us-forms input {
+  height: 56px;
+  width: 100%;
+  left: 0px;
+  top: 34px;
+  border-radius: 8px;
+}
+
+.join-us-forms label,
+input {
+  display: flex;
+  column-gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500, 600;
+}
+
+.join-us-forms input {
+  padding-inline: 20px;
+  border: 1px solid rgba(195, 202, 217, 1);
+  margin-bottom: 19px;
+}
+
+.join-us-forms button {
+  display: flex;
+  column-gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  border: 1px solid rgba(195, 202, 217, 1);
+  padding-inline: 16%;
+  height: 56px;
+  width: 50%;
+  border-radius: 8px;
+  padding-block: 17px;
+  background-color: rgba(140, 48, 245, 1);
 }
