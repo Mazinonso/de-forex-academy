@@ -4,38 +4,6 @@
   }
 }
 
-@font-face {
-  font-family: DMSans-Regular;
-  src: url(/DMSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: inter-Bold;
-  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
-
-@font-face {
-  font-family: Roboto-Light;
-  src: url(/Roboto-Light.ttf);
-}
-@font-face {
-  font-family: Roboto-Black;
-  src: url(/Roboto-Black.ttf);
-}
-@font-face {
-  font-family: inter-light;
-  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
-@font-face {
-  font-family: Inter-Bold;
-  src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
-
-@font-face {
-  font-family: DMSans-Bold;
-  src: url(/DMSans-Bold.ttf);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,7 +32,7 @@ body {
 }
 
 #firm-name {
-  font-family: DMSans-Regular;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -102,7 +70,7 @@ body {
   align-items: center;
   background: rgba(140, 48, 245, 0.1);
   color: #8c30f5;
-  font-family: inter-light;
+  font-family: "Inter", sans-serif;
 }
 
 #de-forex-academy p {
@@ -110,7 +78,7 @@ body {
   padding-top: 2px;
 }
 #h1 {
-  font-family: Inter-Bold;
+  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -120,7 +88,7 @@ body {
   letter-spacing: -2px;
 }
 #h6 {
-  font-family: Roboto-Black;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -135,9 +103,10 @@ body {
   border-radius: 8px;
   padding: 16px 32px 16px 32px;
   background-color: rgba(140, 48, 245, 1);
-  font-family: inter-light;
+  font-family: "Inter", sans-serif;
   text-align: center;
   color: white;
+  font-weight: 700;
 }
 
 .buttons {
@@ -149,6 +118,8 @@ body {
 }
 #Contact-us p {
   border-bottom: 1px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 #image img {
@@ -175,7 +146,8 @@ body {
   scroll-snap-type: mandatory;
 }
 .slider p {
-  font-family: DMSans-Bold;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
   color: black;
   padding-left: 10px;
 }
@@ -201,11 +173,12 @@ body {
 }
 
 #text h1 {
-  font-family: Inter-Bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
 #text p {
-  font-family: DMSans-Regular;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 29px;
@@ -215,7 +188,7 @@ body {
 
 .our-services {
   background-color: rgba(140, 48, 245, 1);
-  /* padding-bottom: 64px; */
+  padding-bottom: 64px;
 }
 
 #service-container {
@@ -233,7 +206,7 @@ body {
 }
 
 #roboto {
-  font-family: roboto-light;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -243,7 +216,7 @@ body {
 }
 
 #inter {
-  font-family: inter-Bold;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 54px;
@@ -252,7 +225,7 @@ body {
 }
 
 #small-inter {
-  font-family: inter-light;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -266,7 +239,7 @@ body {
 }
 
 .mission h1 {
-  font-family: DMSans-Bold;
+  font-family: "DM Sans", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -274,7 +247,7 @@ body {
 }
 
 .mission p {
-  font-family: DMSans-Regular;
+  font-family: "DM Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
@@ -300,7 +273,7 @@ p {
 }
 
 .three p {
-  font-family: DMSans-Regular;
+  font-family: "DM Sans", sans-serif;
 }
 
 #integrity {
@@ -331,13 +304,21 @@ p {
   padding-left: 15px;
   opacity: 0.3;
   padding-top: 32px;
+  width: 143px;
 }
 
 .testimonial-home {
   transform: translateY(-40px);
+  padding-left: 34px;
+  padding-right: 31px;
+}
+
+#testimonial-text {
+  /* margin-left: 34px;
+  margin-right: 31px; */
 }
 #testimonial-text h1 {
-  font-family: inter-Bold;
+  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
@@ -346,18 +327,12 @@ p {
 }
 
 #testimonial-text p {
-  font-family: inter-light;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
-}
-.trinity {
-  height: 376px;
-  top: 290px;
-  border-radius: 8px;
-  margin-top: 66px;
-  padding: 32px;
+  margin-bottom: 66px;
 }
 
 #img-1 {
@@ -367,7 +342,35 @@ p {
   height: 10px;
 }
 #first-p {
-  font-family: inter-light;
+  font-family: "Inter", sans-serif;
   color: black;
   transform: translateY(-10px);
+}
+#trio-1 {
+  height: 376px;
+  left: 34px;
+  top: 290px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+
+#trio-2 {
+  height: 376px;
+  left: 34px;
+  top: 290px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+
+#trio-3 {
+  height: 376px;
+  left: 34px;
+  top: 290px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 1);
 }
