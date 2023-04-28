@@ -401,6 +401,14 @@ p {
   padding-top: 210px;
   padding-bottom: 43px;
 }
+
+/*.join-us-forms {
+  width: 100%;
+  height: auto;
+  padding-left: 34px;
+  padding-right: 31px;
+} */
+
 .join-us-forms input {
   height: 56px;
   width: 100%;
