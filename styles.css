@@ -11,7 +11,9 @@
 }
 body {
   overflow-x: hidden;
+  max-width: 100%;
 }
+
 .root {
   width: 100%;
   padding: 10px;
@@ -142,7 +144,7 @@ body {
   border-radius: 10px;
   padding: 16px;
   background-color: rgba(255, 255, 255, 1);
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   align-items: center;
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
   scroll-snap-type: mandatory;
@@ -159,8 +161,8 @@ body {
 }
 
 .slider {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /*IE and Edge*/
+  scrollbar-width: none; /*Firefox */
 }
 
 .about {
@@ -450,11 +452,9 @@ input {
 
 #intro {
   width: 100%;
-  height: auto;
 }
 #intro div {
   width: 100%;
-  height: auto;
 }
 
 #intro h1 {
@@ -469,14 +469,14 @@ input {
 #experts {
   width: 100%;
   margin-top: 56px;
-  margin-left: 90px;
-  margin-right: 80px;
   margin-bottom: 210px;
 }
 
 #experts div {
   align-items: center;
   margin-bottom: 88px;
+  display: flex;
+  flex-direction: column;
 }
 
 #experts h4,
@@ -609,6 +609,7 @@ p {
 }
 
 .fa-location-dot {
+  width: 20px;
   color: rgba(214, 177, 255, 1);
 }
 
@@ -616,7 +617,7 @@ p {
   width: 100%;
   background-color: rgba(11, 13, 23, 1);
   margin-right: 20px;
-  margin-bottom: 210px;
+  margin-bottom: 100px;
   color: white;
   padding-left: 48px;
   font-family: "Inter", sans-serif;
