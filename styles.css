@@ -1,14 +1,9 @@
-@media screen and (min-width: 480px) {
-  body {
-    background-color: blue;
-  }
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   overflow-x: hidden;
   max-width: 100%;
@@ -120,6 +115,7 @@ body {
   align-items: center;
   padding-top: 32px;
 }
+
 #Contact-us p {
   border-bottom: 1px solid black;
   font-family: "Inter", sans-serif;
@@ -283,7 +279,7 @@ p {
 }
 
 .three h3 {
-  font-family: DMSans-Bold;
+  font-family: "DM Sans", sans-serif;
 }
 
 .three p {
@@ -307,7 +303,11 @@ p {
   border-radius: 20px;
   padding: 32px;
 }
-
+.testimonial-left {
+  padding-left: 34px;
+  padding-right: 31px;
+  padding-bottom: 40px;
+}
 .testimonial {
   background-color: rgba(248, 241, 255, 1);
   margin-top: 282px;
@@ -333,11 +333,12 @@ p {
 } */
 #testimonial-text h1 {
   font-family: "Inter", sans-serif;
-  font-size: 40px;
+  width: 340px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: -0.01em;
-  color: black;
+  padding-left: 0;
 }
 
 #testimonial-text p {
@@ -360,6 +361,7 @@ p {
   color: black;
   transform: translateY(-10px);
 }
+
 #trio-1 {
   height: 376px;
   left: 34px;
@@ -469,7 +471,7 @@ input {
 #experts {
   width: 100%;
   margin-top: 56px;
-  margin-bottom: 210px;
+  margin-bottom: 100px;
 }
 
 #experts div {
@@ -491,138 +493,268 @@ p {
   padding-left: 25px;
 }
 
-.footer {
+footer {
+  background-color: rgba(11, 13, 23, 1);
+  margin-left: 30px;
+  margin-right: 38px;
+}
+
+footer div {
   width: 100%;
-  background-color: rgba(11, 13, 23, 1);
+  margin-inline: 5px;
 }
 
-.footer img {
-  height: 27.123369216918945px;
-  width: 27.521013259887695px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-}
-.footer p {
-  width: 159px;
-  color: rgba(52, 109, 205, 1);
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.30000001192092896px;
-  padding-bottom: 10px;
-}
-
-.footer div {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-#lorem p {
-  width: 255px;
-  left: 0px;
-  top: 56px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  padding-left: 20px;
-  color: white;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0em;
-}
-
-.social-media-icons {
-  margin-top: 24px;
-}
-
-.social-media-icons div {
-  padding-right: 79px;
-}
-
-.fa-youtube {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
-
-.fa-dribbble {
-  color: white;
-}
-
-.fa-twitter {
-  color: white;
-}
-.quick-links {
-  background-color: rgba(11, 13, 23, 1);
-  padding-left: 78px;
-  padding-bottom: 87px;
-}
-
-#quick-links-h2 h2 {
-  margin-bottom: 32px;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.quick-links h2 {
-  color: white;
-  padding-top: 32px;
-}
-
-#quick-links-p p {
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  color: white;
-  font-weight: 100;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  padding-block: 12px;
-}
-
-#quick-links-contact {
+.footer-header {
   display: flex;
   gap: 10px;
-  margin-top: 27px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.fa-envelope {
-  width: 20px;
-  color: rgba(214, 177, 255, 1);
+.footer-header img {
+  padding: 10px;
+  margin-left: 30px;
+}
+.Quick-links,
+.Services,
+.Reach-us {
+  margin-left: 30px;
+  margin-right: 38px;
+  margin-top: 20px;
+}
+.footer-header p {
+  color: rgba(52, 109, 205, 1);
+  padding: 10px;
+  margin-left: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.30000001192092896px;
 }
 
-#quick-links-contact p {
-  padding-top: 0;
-  color: rgba(214, 177, 255, 1);
-}
-
-.fa-mobile-screen-button {
-  width: 20px;
-  color: rgba(214, 177, 255, 1);
-}
-
-.fa-location-dot {
-  width: 20px;
-  color: rgba(214, 177, 255, 1);
-}
-
-.copyright {
-  width: 100%;
-  background-color: rgba(11, 13, 23, 1);
-  margin-right: 20px;
-  margin-bottom: 100px;
-  color: white;
-  padding-left: 48px;
+.lorem {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
+  padding-left: 40px;
+  padding-right: 35px;
+}
+.fa-youtube,
+.fa-chrome,
+.fa-twitter,
+.fa-instagram,
+.fa-envelope,
+.fa-envelope,
+.fa-location-dot {
+  color: pink;
+  text-align: center;
+  margin-left: 36px;
+}
+
+strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+footer p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+#copyright {
+  background-color: rgba(11, 13, 23, 1);
+  color: white;
+  margin-left: 30px;
+  margin-right: 38px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  padding-left: 35px;
+}
+
+@media screen and (min-width: 480px) {
+  .invincible-container {
+    display: flex;
+  }
+
+  .first-text {
+    width: 50%;
+    padding-top: 100px;
+  }
+
+  #image {
+    width: 50%;
+  }
+
+  #image img {
+    height: 746px;
+    padding-top: 30px;
+    padding-left: 60px;
+  }
+
+  #de-forex-academy {
+    margin-top: 80px;
+    margin-bottom: 48px;
+    width: 227px;
+    margin-left: 64px;
+  }
+
+  #h1 {
+    padding-left: 64px;
+    padding-top: 0 !important;
+  }
+  #h1 p {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 0;
+  }
+  #h6 {
+    padding-left: 64px;
+    padding-right: 120px;
+    margin-top: 0;
+  }
+  #h6 p {
+    width: 544px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .buttons {
+    display: flex;
+  }
+  #Contact-us {
+    margin-right: 230px;
+  }
+
+  .slider div {
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+  .about-container {
+    display: flex;
+  }
+
+  #group img {
+    padding-left: 70px;
+  }
+
+  #text {
+    padding-left: 72px;
+    padding-top: 20px !important;
+  }
+
+  #text p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: left;
+    padding-right: 173px;
+  }
+
+  #service-container {
+    display: flex;
+  }
+
+  .service-img {
+    display: flex;
+    justify-content: end;
+  }
+
+  .fonts p {
+    padding-left: 73px;
+    padding-right: 213px;
+  }
+  #small-inter {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .mission {
+    margin-inline: 166px;
+  }
+
+  #mission-statement p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+  .three {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .three p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+
+  .testimonial {
+    padding-bottom: 95px;
+  }
+
+  .testimonial-left {
+    display: flex;
+    margin-right: 290px;
+  }
+
+  #testimonial-text {
+    margin-left: 70px;
+  }
+
+  #trio-1 {
+    margin-left: 165px;
+  }
+  .join-us-forms div {
+    display: inline-block;
+    width: 360px;
+  }
+
+  form #submit {
+    width: 50%;
+    margin-inline: 35%;
+  }
+
+  #intro {
+    text-align: center;
+  }
+
+  #experts {
+    margin-left: 100px;
+    margin-right: 30px;
+  }
+
+  #experts div {
+    display: inline-block;
+    width: 220px;
+  }
+  footer {
+    display: flex;
+  }
 }
